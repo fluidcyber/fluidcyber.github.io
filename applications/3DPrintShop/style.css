@@ -1,0 +1,240 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(#F5F5DC, #FFB6C1);
+}
+    @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', arial;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 35px;
+    Letter-spacing: 2px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-weight: bold;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background: #ADD8E6;
+    color: #fff;
+}
+section
+{
+    position: realtive;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#car
+{
+    mix-blend-mode: screen;
+}
+#text
+{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #ADD8E6 ;
+    Color: #fff;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px)
+}
+
+ 
+
+#Blank{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#Blank{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#Blank{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#Blank{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.Itembox:hover{
+border: 7px solid rgb(78, 252, 3);
+cursor: pointer;
+}
+.Itembox2:hover{
+border: 7px solid rgb(78, 252, 3);
+cursor: pointer;
+}
+.Itembox3:hover{
+border: 7px solid rgb(78, 252, 3);
+cursor: pointer;
+}
+.Itembox4:hover{
+border: 7px solid rgb(78, 252, 3);
+cursor: pointer;
+}
+
+
+
+.Itembox{
+    left: 50px;
+    top: 90px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 4px solid rgb(9, 255, 0);
+
+}
+
+.Itembox2{
+    left: 300px;
+    top: 90px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 4px solid rgb(9, 255, 0);
+}
+
+.Itembox3{
+    left: 550px;
+    top: 90px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 4px solid rgb(9, 255, 0);
+}
+
+.Itembox4{
+    left: 800px;
+    top: 90px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 4px solid rgb(9, 255, 0);
+}
+
+
+.gamename{
+    left: 100px;
+    top: 260px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 20px;
+    color: #0fff00;
+    font-weight: 900;
+}
+.gamename2{
+    left: 350px;
+    top: 260px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 20px;
+    color: #0fff00;
+    font-weight: 900;
+}
+
+.Itemname3{
+    left: 600px;
+    top: 260px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 20px;
+    color: #0fff00;
+    font-weight: 900;
+}
+
+.Itemname4{
+    left: 850px;
+    top: 260px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 20px;
+    color: #0fff00;
+    font-weight: 900;
+}
